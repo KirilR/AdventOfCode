@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Stack;
-//Both resolvements are here as two different methods
+//Both solutions are here as two different methods
 public class Refactor {
 
     ArrayList<Stack<Character>> ListOfstacks = new ArrayList<>();
