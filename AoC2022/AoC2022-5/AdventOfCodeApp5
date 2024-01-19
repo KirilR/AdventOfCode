@@ -1,0 +1,20 @@
+import java.io.IOException;
+
+public class AdventOfCodeApp5 {
+    public static void main(String[] args) throws IOException {
+        TextFileReader reader = new TextFileReader();
+        ReverseFileReader RevReader = new ReverseFileReader();
+        String filePath = "C:\\Users\\Pavel\\Documents\\Kiro\\AdventOfCode20225Stacks.txt"; //file path
+        String filePathMoves = "C:\\Users\\Pavel\\Documents\\Kiro\\AdventOfCode20225Moves.txt";
+        String fileContent = reader.readFile(filePath);
+        //String fileContent2 = RevReader.readFile(filePath);
+        String fileContentMoves = reader.readFile(filePathMoves);
+        Refactor Appa = new Refactor();
+        Appa.Refactor(fileContent2);
+        Appa.FillStacks(fileContent);
+        Appa.Refactor(fileContent);
+        Appa.Refactor2(fileContentMoves);
+    }
+
+
+}
